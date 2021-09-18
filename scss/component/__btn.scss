@@ -1,0 +1,16 @@
+.btn__container {
+  position: relative;
+  top: 49%;
+  // background: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.btn__collection {
+   @include btn;
+  //  &:hover {
+  //    transition: all 0.3 ease-in-out;
+  //    background: #333;
+  //    color: #f1f1f1;
+  //  }
+}

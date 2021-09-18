@@ -1,0 +1,7 @@
+.logo__container {
+ @include logo__container;
+}
+
+.logo__wood {
+  @include logo;
+}
