@@ -394,11 +394,11 @@ template {
 }
 
 .bubble {
-  width: 1.6em;
-  height: 1.6em;
+  width: 28px;
+  height: 28px;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   margin: 10px 0;
   background: #f1f1f1;
   border-radius: 50%;
@@ -408,8 +408,10 @@ template {
 }
 
 .logo-media {
-  width: 1.1em;
-  height: 1.1em;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn__container {
