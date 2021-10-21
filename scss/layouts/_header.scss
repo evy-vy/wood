@@ -1,0 +1,81 @@
+header {
+  @include header;
+}
+
+// #toggle__btn {
+//   @include toggle-btn;
+// }
+
+// .toggle__lines {
+//   @include toggle-lines;
+// }
+
+// .toggle__line-decoration {
+//   @include individual-line;
+// }
+
+// //space between lines in toggle btn
+// #toggle__btn .toggle__line-decoration:nth-child(1) {
+//   top: 0;
+// }
+
+// #toggle__btn .toggle__line-decoration:nth-child(2) {
+//   top: 10px;
+// }
+
+// #toggle__btn .toggle__line-decoration:nth-child(3) {
+//   top: 20px;
+// }
+
+//toggle btn animation 
+// #toggle__btn .toggle__line-decoration:nth-child(1), .toggle__line-decoration:nth-child(3) {
+//   transform: rotate(0deg);
+//   transition: transform 0.4s
+//   ease-in-out, top 0.4s 0.4s ease-in-out;
+// }
+
+// #toggle__btn .toggle__line-decoration:nth-child(2) {
+//   transition: opacity 0.4s 0.4s ease-in-out;
+// }
+
+// #toggle__btn.active .toggle__line-decoration:nth-child(1) {
+//   top: 10px;
+//   transform: rotate(45deg);
+//   transition: top 0.4s
+//   ease-in-out, transform 0.4s 0.4s ease-in-out;
+// }
+
+// #toggle__btn.active .toggle__line-decoration:nth-child(2) {
+//   transition: opacity 0.4s ease-in-out;
+//   opacity: 0;
+// }
+
+// #toggle__btn.active .toggle__line-decoration:nth-child(3) {
+//   top: 10px;
+//   transform: rotate(-45deg);
+//   transition: top 0.4s
+//   ease-in-out, transform 0.4s 0.4s ease-in-out;
+// }
+
+//navigation 
+.nav {
+  @include navigation;
+}
+
+.nav__ul {
+  @include ul-navigation;
+}
+
+.nav__link {
+  @include navigation-link;
+}
+
+#nav__container {
+  @include navigation-container;
+  @include nav-container-animation;
+}
+
+// .show {
+//   transition: transform translateX(100%);
+// }
+

@@ -1,0 +1,38 @@
+// .background {
+//   position: absolute; 
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// }
+.background {
+  @include background
+}
+
+.header {
+  @include header-all-pages
+}
+
+.header__logo {
+ @include header-logo-all-pages
+}
+
+#nav__container {
+  // background-image: linear-gradient(to right, white, black);
+  @include nav-container-all-pages
+}
+
+.nav {
+  @include nav-all-pages
+}
+
+.nav__ul {
+  @include ul-navigation-for-all-pages
+}
+
+.nav__link:hover {
+  color: blue;
+}
+
+// .footer {
+//   position: inherit;
+// }
