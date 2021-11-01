@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,78 +12,51 @@
   <title>Wood - Products</title>
 </head>
   <body>
-    <!-- <img class="background" src="./css/ressources/autumn-forest.jpg" alt=""> -->
+
     <header class="header">
       <!-- logo -->
       <div class="header__logo">
         <a href="./index.html">
           <img class="logo__wood" src="./css/ressources/tree-with-thin-branches-covered-by-leaves.svg" alt="A tree">
-      
         </a>
       </div>
-      <!-- toggle -->
-      <!-- <div class="toggle__container"> -->
-
-        <!-- <button id="toggle__btn">
-          <div class="toggle__lines">
-            <div class="toggle__line-decoration"></div>
-            <div class="toggle__line-decoration"></div>
-            <div class="toggle__line-decoration"></div>
-          </div>
-        </button> -->
-
-        <div id="nav__container">
-          <nav class="nav">
-            <ul class="nav__ul">
-              <li class="nav__list">
-                <a href="login.html" class="nav__link">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="nav__list">
-                <a href="#" class="nav__link">
-                  <i class="fas fa-heart" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li id="in-bag" class="nav__list">
-                <a href="basket.html" class="nav__link">
-                  <i class="fab fa-opencart"></aria-hidden="true">
-                    <span id="howManyInBag">0</span>
-                  </i>
-                </a>
-              </li>
-              <li class="nav__list">
-                <a href="#" class="nav__link">
-                  <i class="fas fa-walking" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      <!-- </div> -->
+      <!-- nav -->
+      <div id="nav__container">
+        <nav class="nav">
+          <ul class="nav__ul">
+            <li class="nav__list">
+              <a href="login.html" class="nav__link">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav__list">
+              <a href="#" class="nav__link">
+                <i class="fas fa-heart" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li id="in-bag" class="nav__list">
+              <a href="basket.html" class="nav__link">
+                <i class="fab fa-opencart"></aria-hidden="true">
+                  <span id="howManyInBag">0</span>
+                </i>
+              </a>
+            </li>
+            <li class="nav__list">
+              <a href="#" class="nav__link">
+                <i class="fas fa-walking" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
+    <!-- main -->
     <main>
       <img class="background" src="./css/ressources/menuisier1.jpg" alt="">
+      
       <section class="products__section">
-        <!-- <video autoplay muted playsinline loop poster="./css/ressources/pexels-fulvio-pessi-5771830.jpg">
-          <source src="./css/ressources/oakForest Video.mp4" >
-        </video> -->
-
         <div id="products">
-          <!-- <div class="product-card"> -->
-            <!-- <div class="product-image">
-              <img src="./css/ressources/pexels-fulvio-pessi-5771830.jpg" class="image" alt="" >
-            </div>
-            </div>
-            <div class="product-infos">
-            <h3 class="product-name">
-              Lorem.
-            </h3>
-            <div class="product-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, aliquam!
-            </div>
-            </div> -->
           <div class="card">
             <div class="card__header">
               <h3 class="card__title">lorem1</h3>
@@ -93,12 +66,12 @@
             </div>
             <div class="card__body">
               <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, aspernatur.</p>
-            <!-- </div> -->
-          </div>
+            </div>
         </div>
       </section>
     </main>
 
+    <!-- footer -->
     <footer class="footer">
       <span class="footer_name">
         Wood 
@@ -122,10 +95,10 @@
       </ul>
     </footer>
     
+    <!-- js -->
     <script src="./js/api.js"></script>
     <script src="./js/products.js"></script>
     <script src="./js/logo-and-social-media-anim.js"></script>
-    <script src="./js/toggle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   </body>
 </html>
