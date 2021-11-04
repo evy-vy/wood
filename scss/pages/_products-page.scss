@@ -8,6 +8,10 @@
   @include background
 }
 
+// .background__filter {
+//   @include background-filter
+// }
+
 .header {
   @include header-all-pages
 }
@@ -32,6 +36,7 @@
 .nav__link:hover {
   color: blue;
 }
+
 
 // .footer {
 //   position: inherit;
